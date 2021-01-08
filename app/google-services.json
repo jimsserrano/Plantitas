@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "532611611715",
+    "firebase_url": "https://plantitas-24faf.firebaseio.com",
+    "project_id": "plantitas-24faf",
+    "storage_bucket": "plantitas-24faf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532611611715:android:5563668cb21122736d68f6",
+        "android_client_info": {
+          "package_name": "com.example.plantitas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532611611715-p6v4rgctg61vq3bo03chbsi8nh7pt9a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT9Sfynps00EcdPUqnGSUk4NOq32YjDQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532611611715-p6v4rgctg61vq3bo03chbsi8nh7pt9a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

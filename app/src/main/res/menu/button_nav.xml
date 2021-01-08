@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="@color/inactive">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        android:enabled="true"
+        app:cnb_iconColor="#FFFFFF"
+        app:cnb_textColor="#FFFFFF"
+        app:cnb_backgroundColor="@color/naviconcolor"
+
+        />
+
+
+    <item
+        android:id="@+id/nav_sell"
+        android:icon="@drawable/ic_baseline_add_box_24"
+        android:title="Sell"
+        android:enabled="true"
+        app:cnb_iconColor="#FFFFFF"
+        app:cnb_textColor="#FFFFFF"
+        app:cnb_backgroundColor="@color/naviconcolor"
+        />
+    <item
+        android:id="@+id/nav_messages"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="Messages"
+        android:enabled="true"
+        app:cnb_iconColor="#FFFFFF"
+        app:cnb_textColor="#FFFFFF"
+        app:cnb_backgroundColor="@color/naviconcolor"
+        />
+
+
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"
+        android:enabled="true"
+        app:cnb_iconColor="#FFFFFF"
+        app:cnb_textColor="#FFFFFF"
+        app:cnb_backgroundColor="@color/naviconcolor"
+       />
+</menu>

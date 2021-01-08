@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Plantitas</string>
+    <string name="plant_delivery_sell"><![CDATA[Plant Delivery & Sell]]></string>
+    <string name="facebook_application_id">378005183413616</string>
+    <string name="fb_login_protocol_scheme">fb378005183413616</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+                <View
+                    android:id="@+id/profile_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="119dp"
+                    android:background="@drawable/profilebg" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/user_profile"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerHorizontal="true"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/naviconcolor"
+                    android:src="@drawable/profile_logo" />
+
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="User's Fullname"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/user_profile"
+                android:textSize="7.5pt" />
+            </RelativeLayout>
+            <Button
+                android:id="@+id/edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_button2"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
+
+            <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/profile_tablayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                  />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="350dp" />
+
+            <Button
+                    android:id="@+id/logout_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="230dp"
+                    android:text="Logout"
+                    android:background="@drawable/custom_button2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                    ></Button>
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
